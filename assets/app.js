@@ -6,15 +6,12 @@ Si la persona ingresa un dato que no es un número entero (por ejemplo: un strin
 const age = prompt ("¿Qué edad tienes?");
 
 
-if (age === "" || age === 0 || age === NaN || age === null) {
-alert("El ingreso no es válido, Debes ingresar un número entero, en el caso de ser meses debes escribir, n° + la palabra meses");
-
 /* baby:0-12 meses 
-} else if (age === "0 mes" || "1 mes" ||"2 meses"|| "3 meses" || "4 meses"|| "5 meses" || "6 meses" || "7 meses" || "8 meses" || "9 meses" || "10 meses" || "11 meses" || "12 meses" ) {
+if (age === "0 mes" || "1 mes" ||"2 meses"|| "3 meses" || "4 meses"|| "5 meses" || "6 meses" || "7 meses" || "8 meses" || "9 meses" || "10 meses" || "11 meses" || "12 meses" ) {
 alert ("You are Baby");*/
 
 /* Toddler: 1-3 yrs */
-} else if (age >= 1 && age < 3) {
+ if (age >= 1 && age < 3) {
 alert ("You are Toddler");
 
 /* Preschool: 3-5 yrs */
